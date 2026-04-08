@@ -1,0 +1,468 @@
+
+
+
+<html lang="id">
+    <head >
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>MS Coffee & Eatery</title>
+       <link rel="stylesheet" href="assets/css/style.css">
+       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    </head>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <body>
+        
+   <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background:#f59e0b;">
+  <div class="container">
+
+    <!-- LOGO -->
+    <a class="navbar-brand d-flex align-items-center" href="#">
+      <img src="assets/img/logo2.png" height="40" class="me-2">
+      <span>MS Coffee</span>
+    </a>
+
+    <!-- TOMBOL HAMBURGER -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- MENU -->
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+
+        <li class="nav-item">
+          <a class="nav-link" href="#home">Beranda</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#about">Tentang</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#menu">Menu</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Kontak</a>
+        </li>
+
+      </ul>
+    </div>
+
+  </div>
+</nav>
+
+<section id="home" class="hero">
+  <div class="slider">
+     <img src="assets/img/depan.jpg" class="active">
+     <img src="assets/img/indor1.jpg">
+     <img src="assets/img/indor2.jpg">
+     <img src="assets/img/outdor1.jpg">
+     <img src="assets/img/outdor2.jpg">
+     <img src="assets/img/outdor3.jpg">
+     <img src="assets/img/musik.jpg">
+
+  </div>
+
+  <div class="hero-content">
+    <h1>Nikmati Setiap Tegukan</h1>
+    <h2>Kopi Sempurna</h2>
+    <p>Tempat nyaman untuk kopi, makan, dan bersantai.</p>
+    <a href="#menu" class="btn">Jelajahi Menu</a>
+  </div>
+</section>
+
+
+<section id="about" class="about-section">
+  <div class="about-container">
+
+    <div class="about-image reveal-left">
+      <img src="assets/img/tentang.jpg" alt="Interior Cafe">
+    </div>
+
+    <div class="about-content reveal-right">
+      <h2>Tentang Kami</h2>
+      <p>
+      Didirikan pada 21 Juni 2025 oleh Mustaqim, MS Coffee & Eatery hadir sebagai tempat nyaman untuk berkumpul, bersantai,
+       dan menikmati waktu bersama.
+
+      Kami menyajikan berbagai pilihan kopi dan hidangan dengan cita rasa terbaik, didukung suasana yang hangat dan bersahabat.
+      Dengan konsep coffee shop sekaligus eatery, kami berkomitmen menghadirkan pengalaman yang menyenangkan bagi setiap pelanggan.
+      </p>
+
+      <div class="bubble-wrapper">
+        <div class="bubble">
+          <strong>5.000+</strong>
+          <span>Pengunjung</span>
+        </div>
+
+        <div class="bubble">
+          <strong>4.500+</strong>
+          <span>Pelanggan Puas</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- =======================
+     MENU SECTION
+======================= -->
+<section id="menu" class="menu-section">
+
+  <h2 class="menu-title">Ini adalah menu terbaik kami</h2>
+
+  <!-- FILTER BUTTON -->
+  <div class="menu-filter">
+    <button class="filter-btn active" data-filter="all">✨ Semua</button>
+    <button class="filter-btn" data-filter="minuman">☕ Minuman</button>
+    <button class="filter-btn" data-filter="makanan">🍽️ Makanan</button>
+    <button class="filter-btn" data-filter="dessert">🍰 Dessert</button>
+  </div>
+
+  <!-- MENU LIST -->
+  <div class="menu-grid">
+          <!-- MINUMAN -->
+<div class="menu-card" data-category="minuman">
+  <div class="menu-img">
+    <img src="assets/img/minuman1.JPG">
+  </div>
+  <h3>Laggon Fizz</h3>
+  <p class="price">Rp 20.000</p>
+</div>
+
+<div class="menu-card" data-category="minuman">
+  <div class="menu-img">
+    <img src="assets/img/minuman2.JPG">
+  </div>
+  <h3>Black Apple</h3>
+  <p class="price">Rp 20.000</p>
+</div>
+
+<div class="menu-card" data-category="minuman">
+  <div class="menu-img">
+    <img src="assets/img/minuman3.JPG">
+  </div>
+  <h3>Black Pineapple</h3>
+  <p class="price">Rp 20.000</p>
+</div>
+
+<div class="menu-card" data-category="minuman">
+  <div class="menu-img">
+    <img src="assets/img/minuman4.JPG">
+  </div>
+  <h3>Black peach </h3>
+  <p class="price">Rp 15.000</p>
+</div>
+
+<div class="menu-card" data-category="minuman">
+  <div class="menu-img">
+    <img src="assets/img/minuman5.JPG">
+  </div>
+  <h3>Jeruk Besar</h3>
+  <p class="price">Rp 15.000</p>
+</div>
+
+<div class="menu-card" data-category="minuman">
+  <div class="menu-img">
+    <img src="assets/img/minuman6.JPG">
+  </div>
+  <h3> Americano </h3>
+  <p class="price">Rp 15.000</p>
+</div>
+
+<div class="menu-card" data-category="minuman">
+  <div class="menu-img">
+    <img src="assets/img/minuman7.JPG">
+  </div>
+  <h3>Coffee Latte</h3>
+  <p class="price">Rp 20.000</p>
+</div>
+
+<div class="menu-card" data-category="minuman">
+  <div class="menu-img">
+    <img src="assets/img/minuman8.JPG">
+  </div>
+  <h3>Peach Berry Fizz</h3>
+  <p class="price">Rp 20.000</p>
+</div>
+
+<div class="menu-card" data-category="minuman">
+  <div class="menu-img">
+    <img src="assets/img/minuman9.JPG">
+  </div>
+  <h3> Kopi susu aren</h3>
+  <p class="price">Rp 20.000</p>
+</div>
+
+<div class="menu-card" data-category="minuman">
+  <div class="menu-img">
+    <img src="assets/img/minuman10.JPG">
+  </div>
+  <h3>Fresh milk vanila</h3>
+  <p class="price">Rp 15.000</p>
+</div>
+
+<div class="menu-card" data-category="minuman">
+  <div class="menu-img">
+    <img src="assets/img/minuman11.JPG">
+  </div>
+  <h3>Non coffee matcha</h3>
+  <p class="price">Rp 15.000</p>
+</div>
+
+<div class="menu-card" data-category="minuman">
+  <div class="menu-img">
+    <img src="assets/img/minuman12.JPG">
+  </div>
+  <h3>Non coffe red velvet</h3>
+  <p class="price">Rp 20.000</p>
+</div>
+
+<div class="menu-card" data-category="minuman">
+  <div class="menu-img">
+    <img src="assets/img/minuman13.JPG">
+  </div>
+  <h3>Non coffee coklat</h3>
+  <p class="price">Rp 20.000</p>
+</div>
+
+<!-- MAKANAN -->
+<div class="menu-card" data-category="makanan">
+  <div class="menu-img">
+    <img src="assets/img/makanan1.JPG">
+  </div>
+  <h3>Cumi tinta </h3>
+  <p class="price">Rp 30.000</p>
+</div>
+
+<div class="menu-card" data-category="makanan">
+  <div class="menu-img">
+    <img src="assets/img/makanan2.JPG">
+  </div>
+  <h3>Tahu pedas manis</h3>
+  <p class="price">Rp 25.000</p>
+</div>
+
+<div class="menu-card" data-category="makanan">
+  <div class="menu-img">
+    <img src="assets/img/makanan3.JPG">
+  </div>
+  <h3> Nasi Goreng Pattaya</h3>
+  <p class="price">Rp 25.000</p>
+</div>
+
+<div class="menu-card" data-category="makanan">
+  <div class="menu-img">
+    <img src="assets/img/makanan4.JPG">
+  </div>
+  <h3>Cumi goreng tepung</h3>
+  <p class="price">Rp 23.000</p>
+</div>
+
+<div class="menu-card" data-category="makanan">
+  <div class="menu-img">
+    <img src="assets/img/makanan5.JPG">
+  </div>
+  <h3>paket ayam katsu</h3>
+  <p class="price">Rp 25.000</p>
+</div>
+
+<div class="menu-card" data-category="makanan">
+  <div class="menu-img">
+    <img src="assets/img/makanan6.JPG">
+  </div>
+  <h3>Mie tiaw biasa</h3>
+  <p class="price">Rp 12.000</p>
+</div>
+
+<div class="menu-card" data-category="makanan">
+  <div class="menu-img">
+    <img src="assets/img/makanan7.JPG">
+  </div>
+  <h3>Mie jawa biasa</h3>
+  <p class="price">Rp 15.000</p>
+</div>
+
+<div class="menu-card" data-category="makanan">
+  <div class="menu-img">
+    <img src="assets/img/makanan8.JPG">
+  </div>
+  <h3>Rice Bowl daging</h3>
+  <p class="price">Rp 23.000</p>
+</div>
+
+<div class="menu-card" data-category="makanan">
+  <div class="menu-img">
+    <img src="assets/img/makanan9.JPG">
+  </div>
+  <h3>Gyoza</h3>
+  <p class="price">Rp 15.000</p>
+</div>
+
+<div class="menu-card" data-category="makanan">
+  <div class="menu-img">
+    <img src="assets/img/makanan10.JPG">
+  </div>
+  <h3>Dimsum</h3>
+  <p class="price">Rp 15.000,-</p>
+</div>
+
+<div class="menu-card" data-category="makanan">
+  <div class="menu-img">
+    <img src="assets/img/makanan11.JPG">
+  </div>
+  <h3>Paket ayam goreng</h3>
+  <p class="price">Rp 25.000</p>
+</div>
+
+<div class="menu-card" data-category="makanan">
+  <div class="menu-img">
+    <img src="assets/img/makanan12.JPG">
+  </div>
+  <h3>Capcay</h3>
+  <p class="price">Rp 15.000</p>
+</div>
+
+<div class="menu-card" data-category="makanan">
+  <div class="menu-img">
+    <img src="assets/img/makanan13.JPG">
+  </div>
+  <h3>Tela-tela</h3>
+  <p class="price">Rp 15.000,-</p>
+</div>
+
+<div class="menu-card" data-category="makanan">
+  <div class="menu-img">
+    <img src="assets/img/makanan14.JPG">
+  </div>
+  <h3>Paket ayam bakar </h3>
+  <p class="price">Rp 25.000,-</p>
+</div>
+
+<div class="menu-card" data-category="makanan">
+  <div class="menu-img">
+    <img src="assets/img/makanan15.JPG">
+  </div>
+  <h3>Tekuyung saos tiram </h3>
+  <p class="price">Rp 35.000</p>
+</div>
+
+<div class="menu-card" data-category="makanan">
+  <div class="menu-img">
+    <img src="assets/img/makanan16.JPG">
+  </div>
+  <h3>Tahu crispy pedas</h3>
+  <p class="price">Rp 20.000</p>
+</div>
+
+<!-- DESSERT -->
+<div class="menu-card" data-category="dessert">
+  <div class="menu-img">
+    <img src="assets/img/desert1.JPG">
+  </div>
+  <h3>Nugget</h3>
+  <p class="price">Rp 15.000</p>
+</div>
+
+<div class="menu-card" data-category="dessert">
+  <div class="menu-img">
+    <img src="assets/img/desert2.JPG">
+  </div>
+  <h3>Pisang coklat</h3>
+  <p class="price">Rp 15.000</p>
+</div>
+
+<div class="menu-card" data-category="dessert">
+  <div class="menu-img">
+    <img src="assets/img/desert3.JPG">
+
+  </div>
+  <h3>Pisang srikaya</h3>
+  <p class="price">Rp 15.000</p>
+</div>
+
+<div class="menu-card" data-category="dessert">
+  <div class="menu-img">
+    <img src="assets/img/desert4.JPG">
+  </div>
+  <h3>Pisang keju</h3>
+  <p class="price">Rp 15.000</p>
+</div>
+
+</section>
+
+
+
+<section id="contact" class="contact-section">
+  <div class="contact-container">
+
+    <div class="contact-left">
+      <h2>Hubungi Kami</h2>
+
+      <div class="contact-card">
+        <h4>Alamat</h4>
+        <p><strong>MS Coffee & Eatery<br>Jl.Terigas, Saing Rambi, Kec. Sambas,<br>Kabupaten Sambas, Kalimantan Barat 79462</strong></p>
+      </div>
+
+      <div class="contact-card">
+        <h4>Telepon</h4>
+        <p><strong>+62 812-xxxx-xxxx</strong></p>
+      </div>
+
+      <div class="contact-card">
+        <h4>Email</h4>
+        <p><strong>mscoffee@email.com</strong></p>
+      </div>
+
+      <div class="contact-item jam-operasional">
+  <h4>Jam Operasional</h4>
+  <p>Senin – Minggu</p>
+  <p>09.00 – 00.00 WIB</p>
+</div>
+
+    </div>
+
+    <div class="contact-right">
+      <iframe
+        src="https://www.google.com/maps?q=MS%20coffee%20%26%20eatery%20kabupaten%20sambas&output=embed">
+      </iframe>
+    </div>
+
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="footer-container">
+
+    <!-- Brand -->
+    <div class="footer-brand">
+      <h3>MS COFFEE</h3>
+      <p>Tempat nyaman untuk kopi, makan, dan bersantai.</p>
+    </div>
+
+    <!-- Sosial Media -->
+    <div class="footer-social">
+      <h4>Ikuti Kami</h4>
+      <div class="social-links">
+        <a href="https://www.instagram.com/ms_coffee___?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" aria-label="Instagram">IG: @ms_coffee__</a>
+        <a href="https://www.facebook.com/MSCoffeeShopp/about" aria-label="Facebook">FB: @M S Coffee</a>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    <p>© 2026 MS Coffee. All rights reserved.</p>
+  </div>
+</footer>
+
+<script src="menu.js"></script>
+
+
+<script src="slider.js"></script>
+<script src="animate.js"></script>
+</body>
+</html>
